@@ -1,0 +1,54 @@
+/* STYLING BY HTML ELEMENT SELECTOR */
+p{
+    background-color: blue; color: #e6eb52; font-size: larger;
+}
+
+span{
+    background-color: red; color: blue;
+}
+/* STYLING BY ID */
+#para4{
+    background-color: #e6eb52;
+}
+#para5{
+    background-color: purple;
+    border: 6px solid red;
+    /* STYLING BY CLASS */
+}
+.directors{
+    font-size: larger;
+    color: crimson;
+    border-color: blueviolet;
+}
+
+.box{
+    display: inline-block;
+    justify-content: center;
+    background-color: purple;
+    padding: 40px;
+    margin: 40px;
+    border: 10px solid red; 
+
+}
+.colour-by-name{
+    color: red;
+    background-color: black;
+}
+
+#colour-by-rgb{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 255, 0);
+}
+
+#colourbyhfx{
+    color: #0000ff; 
+    background-color: #FFFFFF;
+}
+
+.body{
+    
+    background-image: url(sample-image.jpeg);
+    background-size: cover;
+    margin: 10px 50px;
+    padding: 50px 30px 20px 10px;
+}

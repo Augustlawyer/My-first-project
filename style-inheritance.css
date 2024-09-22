@@ -1,0 +1,39 @@
+.father{
+    background-color: brown;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#son{
+    background-color: blue;
+    color: black;
+}
+
+#trial{
+    background-color: red;
+    color: green;
+}
+
+
+.adjacent h1 +p {
+background-color: blueviolet;
+color: brown;
+}
+
+#hover:hover{
+background-color: black;
+color: bisque;
+
+}
+
+.pseudo p:first-child{
+    background-color: green;
+    color: bisque;
+
+}
+.pseudo p:nth-of-type(3){
+    background-color: yellow;
+}
+
+
